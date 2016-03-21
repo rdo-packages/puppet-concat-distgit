@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-065d612ec0406f332b78dc4ccd2bb9c132d5b435	puppet-concat-distgit-ptl
+# UUID          Group Name
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
+f2e89c3f800b8e1a9acb66246bb0a975f2f1752f       	puppet-concat-distgit-core
+065d612ec0406f332b78dc4ccd2bb9c132d5b435        	puppet-concat-distgit-ptl
+global:Registered-Users		Registered Users
