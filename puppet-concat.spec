@@ -1,3 +1,4 @@
+%{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppetlabs-concat
 
 Name:           puppet-concat
