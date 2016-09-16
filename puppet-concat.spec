@@ -7,8 +7,8 @@
 
 
 Name:           puppet-concat
-Version:        XXX
-Release:        XXX
+Version:        2.2.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Construct files from multiple fragments.
 License:        Apache-2.0
 
@@ -49,4 +49,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/concat/
 
 
 %changelog
+* Fri Sep 16 2016 Haikel Guemar <hguemar@fedoraproject.org> 2.2.0-1.ba64361.git
+- Newton update 2.2.0 (ba643617a2a03f0588a0ec6625824a707528d9f0)
 
