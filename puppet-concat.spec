@@ -1,6 +1,6 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppetlabs-concat
-%global commit ba643617a2a03f0588a0ec6625824a707528d9f0
+%global commit fdf4a84534ccb1b9ae8ffb654c7e160a31e294ee
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
@@ -8,7 +8,7 @@
 
 Name:           puppet-concat
 Version:        2.2.0
-Release:        1%{?alphatag}%{?dist}
+Release:        2%{?alphatag}%{?dist}
 Summary:        Construct files from multiple fragments.
 License:        Apache-2.0
 
@@ -49,6 +49,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/concat/
 
 
 %changelog
+* Tue Nov 15 2016 Alfredo Moralejo <amoralej@redhat.com> 2.2.0-2.fdf4a84.git
+- Newton update 2.2.0 (fdf4a84534ccb1b9ae8ffb654c7e160a31e294ee)
+
 * Fri Sep 16 2016 Haikel Guemar <hguemar@fedoraproject.org> 2.2.0-1.ba64361.git
 - Newton update 2.2.0 (ba643617a2a03f0588a0ec6625824a707528d9f0)
 
