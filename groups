@@ -1,6 +1,6 @@
 # UUID                                  	Group Name
 #
 065d612ec0406f332b78dc4ccd2bb9c132d5b435	puppet/puppet-concat-distgit-ptl
-f2e89c3f800b8e1a9acb66246bb0a975f2f1752f	puppet/puppet-concat-distgit-core
 63673ea7f2ae6a5666566b1ea9f14e473d00f5a9	rdo-core
+f2e89c3f800b8e1a9acb66246bb0a975f2f1752f	puppet/puppet-concat-distgit-core
 global:Registered-Users                 	Registered Users
