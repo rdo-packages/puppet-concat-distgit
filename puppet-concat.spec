@@ -10,7 +10,7 @@ Name:           puppet-concat
 Version:        XXX
 Release:        XXX
 Summary:        Construct files from multiple fragments.
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://github.com/puppetlabs/puppetlabs-concat
 
