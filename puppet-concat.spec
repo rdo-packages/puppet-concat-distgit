@@ -49,3 +49,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/concat/
 
 
 %changelog
+# REMOVEME: error caused by commit https://github.com/puppetlabs/puppetlabs-concat/commit/4e8ee401c7abbe51d3c15ae0a9c217248c9d7d79
