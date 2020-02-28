@@ -52,3 +52,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/concat/
 * Thu Oct 3 2019 RDO <dev@lists.rdoproject.org> 6.1.0-1.9baa8fcgit
 - Update to post 6.1.0 (9baa8fcbd1ab68cd32916bd5d90255f816bb9519)
 
+
