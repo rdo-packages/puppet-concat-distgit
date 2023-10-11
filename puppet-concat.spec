@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppetlabs-concat
-%global commit ba643617a2a03f0588a0ec6625824a707528d9f0
+%global commit bb53e58babd9cd848b02cda4fe1b28f4203e0698
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-concat
-Version:        XXX
-Release:        XXX
+Version:        9.0.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Construct files from multiple fragments.
 License:        ASL 2.0
 
@@ -49,3 +49,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/concat/
 
 
 %changelog
+* Wed Oct 11 2023 RDO <dev@lists.rdoproject.org> 9.0.0-1.bb53e58git
+- Update to post 9.0.0 (bb53e58babd9cd848b02cda4fe1b28f4203e0698)
+
