@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9567e7c0_6b4e2f09",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-11-10T15:50:09Z",
+      "side": 1,
+      "message": "We need to clean up the commit snap part",
+      "revId": "778e785b852a9e0937a87805544bee654bef0b2f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
