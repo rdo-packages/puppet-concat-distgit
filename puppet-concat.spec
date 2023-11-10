@@ -7,7 +7,7 @@
 
 
 Name:           puppet-concat
-Version:        7.3.2
+Version:        7.3.3
 Release:        1%{?alphatag}%{?dist}
 Summary:        Construct files from multiple fragments.
 License:        ASL 2.0
@@ -49,6 +49,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/concat/
 
 
 %changelog
+* Fri Nov 10 2023 RDO <dev@lists.rdoproject.org> 7.3.3-1.6dff852git
+- Update to 7.3.3
+
 * Mon Mar 13 2023 RDO <dev@lists.rdoproject.org> 7.3.2-1.6dff852git
 - Update to post 7.3.2 (6dff852fd342374a02879d38b50ca4f71e17cd9b)
 
