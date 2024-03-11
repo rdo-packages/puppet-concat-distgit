@@ -1,10 +1,5 @@
-%{!?upstream_version: %global upstream_version %{commit}}
+%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %define upstream_name puppetlabs-concat
-%global commit ba643617a2a03f0588a0ec6625824a707528d9f0
-%global shortcommit %(c=%{commit}; echo ${c:0:7})
-# DO NOT REMOVE ALPHATAG
-%global alphatag .%{shortcommit}git
-
 
 Name:           puppet-concat
 Version:        XXX
@@ -14,7 +9,7 @@ License:        ASL 2.0
 
 URL:            https://github.com/puppetlabs/puppetlabs-concat
 
-Source0:        https://github.com/puppetlabs/%{upstream_name}/archive/%{commit}.tar.gz#/%{upstream_name}-%{shortcommit}.tar.gz
+Source0:        https://github.com/puppetlabs/%{upstream_name}/archive/v%{upstream_version}.tar.gz
 
 BuildArch:      noarch
 
