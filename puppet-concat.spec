@@ -2,8 +2,8 @@
 %define upstream_name puppetlabs-concat
 
 Name:           puppet-concat
-Version:        XXX
-Release:        XXX
+Version:        9.1.0
+Release:        1%{?dist}
 Summary:        Construct files from multiple fragments.
 License:        ASL 2.0
 
@@ -44,3 +44,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/concat/
 
 
 %changelog
+* Tue Mar 18 2025 RDO <dev@lists.rdoproject.org> 9.1.0-1
+- Update to 9.1.0
+
